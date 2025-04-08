@@ -1,0 +1,10 @@
+int ContarOcorrencias(int[] array, int valor)
+{
+    int contador = 0;
+    foreach (int item in array)
+    {
+        if (item == valor)
+            contador++;
+    }
+    return contador;
+}
